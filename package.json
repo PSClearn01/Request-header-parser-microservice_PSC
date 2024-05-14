@@ -4,7 +4,7 @@
   "description": "freecodecamp Backend_API Project",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -17,9 +17,11 @@
   },
   "homepage": "https://github.com/PSClearn01/Request-header-parser-microservice_PSC#readme",
   "dependencies": {
+    "cjs": "^0.0.11",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
+    "loader": "^2.1.1",
     "nodemon": "^3.1.0"
   }
 }
